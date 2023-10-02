@@ -1,0 +1,20 @@
+https://imgur.com/a/zcm6il2
+Here are explanations for the given questions:
+
+1. For every additional element, why you are adding it?
+Additional elements may be added to improve the performance, security, and availability of the system. For example, load balancers can be added to distribute traffic among servers, firewalls can be added to block unauthorized access, and monitoring tools can be added to detect and diagnose issues.
+
+2. What are firewalls for?
+Firewalls are network security devices that monitor and control incoming and outgoing network traffic based on predetermined security rules. They can be used to block unauthorized access, prevent malware and viruses from entering the network, and protect sensitive data from being stolen or compromised[3].
+
+3. Why is the traffic served over HTTPS?
+Traffic is served over HTTPS to provide a secure and encrypted connection between the client and the server. HTTPS uses SSL/TLS encryption to protect sensitive data such as passwords, credit card numbers, and personal information from being intercepted or stolen by attackers. It also helps to prevent man-in-the-middle attacks and ensures the authenticity of the website[2][3].
+
+4. What monitoring is used for?
+Monitoring is used to detect and diagnose issues in the system, such as performance problems, errors, and downtime. It can also be used to track system metrics such as CPU usage, memory usage, and network traffic, and to alert administrators when thresholds are exceeded. Monitoring helps to ensure the availability, reliability, and performance of the system[4][5].
+
+5. How the monitoring tool is collecting data?
+Monitoring tools collect data by using agents or sensors that are installed on the servers or devices being monitored. These agents or sensors collect data on system metrics such as CPU usage, memory usage, and network traffic, and send the data to a central monitoring server or dashboard. The monitoring server or dashboard then aggregates and analyzes the data, and provides alerts and reports to administrators[4].
+
+6. Explain what to do if you want to monitor your web server QPS?
+To monitor your web server QPS (queries per second), you can use a monitoring tool such as PRTG or Nagios. These tools can be configured to monitor the web server's performance metrics, including QPS, and to alert administrators when thresholds are exceeded. To set up monitoring for QPS, you would need to install the monitoring tool on the web server, configure the QPS sensor, and set up alerts and reports as needed.
