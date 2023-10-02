@@ -1,0 +1,23 @@
+https://imgur.com/a/rK6PiOn
+Here are explanations for the given questions:
+
+1. What is a server?
+A server is a computer program or device that provides functionality to other programs or devices, called "clients". In the context of the internet, a server is a computer that stores and delivers web pages to clients upon request.
+
+2. What is the role of the domain name?
+The domain name is a human-readable name that is used to identify a website on the internet. It is used in place of an IP address to make it simpler for consumers to visit websites. The domain name system (DNS) translates domain names into IP addresses, which are used to locate the website on the internet.
+
+3. What type of DNS record www is in www.foobar.com?
+The "www" in "www.foobar.com" is a subdomain, and it is typically used to identify the web server that hosts the website. It is a type of DNS record called a CNAME (Canonical Name) record, which maps the subdomain to the domain name of the web server.
+
+4. What is the role of the web server?
+The web server is a program that runs on a server computer and is responsible for delivering web pages to clients upon request. It receives requests from clients, retrieves the requested web pages from storage, and sends them back to the clients over the internet.
+
+5. What is the role of the application server?
+The application server is a program that runs on a server computer and is responsible for executing the business logic of an application. It receives requests from clients, processes them, and sends responses back to the clients. It may also interact with a database to retrieve or store data.
+
+6. What is the role of the database?
+The database is a program that runs on a server computer and is responsible for storing and retrieving data for an application. It receives requests from the application server, processes them, and sends responses back to the application server. It may also enforce data integrity and security constraints.
+
+7. What is the server using to communicate with the computer of the user requesting the website?
+The server uses the internet protocol (IP) to communicate with the computer of the user requesting the website. When a user types a domain name into their web browser, the browser sends a request to the server's IP address, asking for the web page associated with the domain name. The server then sends the web page back to the user's computer over the internet.
