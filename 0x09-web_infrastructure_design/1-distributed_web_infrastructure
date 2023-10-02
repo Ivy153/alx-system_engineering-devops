@@ -1,0 +1,14 @@
+https://imgur.com/a/ZSAVzIW
+Here are explanations for the given questions:
+
+1. What distribution algorithm your load balancer is configured with and how it works?
+The distribution algorithm used by the load balancer depends on the specific configuration. Load balancers can use different algorithms such as round-robin, least connections, IP hash, and others to distribute traffic among the servers. Round-robin distributes traffic evenly among the servers in a cyclic order, while least connections sends traffic to the server with the fewest active connections. IP hash uses the client's IP address to determine which server to send traffic to.
+
+2. Is your load-balancer enabling an Active-Active or Active-Passive setup, explain the difference between both?
+The load balancer can be configured for either an Active-Active or Active-Passive setup. In an Active-Passive setup, there is a primary load balancer that distributes traffic to the servers, and a secondary load balancer that monitors the primary load balancer and takes over if the primary fails. The secondary load balancer is in a passive state until it takes over, hence the name. In an Active-Active setup, there are two or more load balancers that are actively distributing traffic to the servers. This setup provides better scalability and redundancy, but requires more resources.
+
+3. How a database Primary-Replica (Master-Slave) cluster works?
+In a Primary-Replica (Master-Slave) cluster, there is a primary database node that receives all write requests and replicates the changes to one or more replica nodes. The replica nodes are read-only and can be used to handle read requests. The primary node is responsible for ensuring that the replica nodes are up-to-date with the latest changes. If the primary node fails, one of the replica nodes can be promoted to become the new primary node. This setup provides high availability and fault tolerance for the database.
+
+4. What is the difference between the Primary node and the Replica node in regard to the application?
+The primary node in a Primary-Replica cluster is responsible for handling all write requests and ensuring that the replica nodes are up-to-date with the latest changes. The replica nodes are read-only and can be used to handle read requests. In regard to the application, the primary node is the only node that can modify the data in the database, while the replica nodes can only read the data. This setup provides fault tolerance and high availability for the application, as the replica nodes can take over if the primary node fails.
